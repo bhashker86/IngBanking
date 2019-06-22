@@ -24,7 +24,7 @@ public class Account  implements Serializable{
 	private static final long serialVersionUID = 1L;
 	@Id
     @GeneratedValue(strategy = GenerationType.AUTO) 
-	private Long userId;
+	private Long accountId;
 	private String firstName;
 	private String lastName;
 	private String address;
@@ -35,9 +35,9 @@ public class Account  implements Serializable{
 	private Long phNum;
 	private String accountType;
 	private String status;
-	private String password;
 	private String gender;
-	
+	private String accountNumber;
+	private Double balance;
 
 
 }
